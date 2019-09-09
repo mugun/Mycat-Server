@@ -31,7 +31,7 @@ public abstract class Versions {
     /**协议版本**/
     public static final byte PROTOCOL_VERSION = 10;
 
-    /**服务器版本**/
+    /**server version**/
     public static byte[] SERVER_VERSION = "5.6.29-mycat-1.6.7.3-release-20190820173415".getBytes();
 
     public static void setServerVersion(String version) {
